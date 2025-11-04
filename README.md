@@ -1,3 +1,3 @@
 # 11-3
-November 3rd Class 
-Participation Activity
+# November 3rd Class 
+# Participation Activity
