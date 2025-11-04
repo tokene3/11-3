@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # Load data
-df = pd.read_csv("C:/Users/theoa/Downloads/GPU_DATA/gpu_specs_v6.csv")
+df = pd.read_csv("gpu_specs_v6.csv")
 
 # Convert possible numeric columns safely
 numeric_cols = ["memSize", "gpuClock", "memClock", "unifiedShader", "tmu", "rop", "releaseYear"]
@@ -48,3 +48,4 @@ st.plotly_chart(fig, use_container_width=True)
 # Show table below
 st.subheader("📊 Raw Data")
 st.dataframe(filtered_df)
+
